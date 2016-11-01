@@ -1,8 +1,8 @@
 <?php
 /**
  * Plugin Name: ND Core
- * Plugin URI: https://designtowebsite.com
- * Description: Core functionality plugin designed to work with your site specific functionality plugin and theme
+ * Plugin URI: https://github.com/nickdavis/nd-core
+ * Description: Core functionality plugin designed to work with your site specific core functionality plugin and your WordPress theme
  * Version: 1.0.0
  * Author: Nick Davis
  * Author URI: https://designtowebsite.com
@@ -21,8 +21,9 @@ namespace NickDavis\Core;
 // Plugin Directory
 define( 'ND_DIR', dirname( __FILE__ ) );
 
-require_once( ND_DIR . '/inc/general.php' );
-require_once( ND_DIR . '/inc/dev-tools.php' );
-//require_once( ND_DIR . '/inc/genesis.php' );
-require_once( ND_DIR . '/inc/gravity-forms.php' );
-require_once( ND_DIR . '/inc/yoast-seo.php' );
+require_once( ND_DIR . '/includes/general.php' );
+require_once( ND_DIR . '/includes/dev-tools.php' );
+require_once( ND_DIR . '/includes/genesis.php' );
+require_once( ND_DIR . '/includes/gravity-forms.php' );
+require_once( ND_DIR . '/includes/jetpack.php' );
+require_once( ND_DIR . '/includes/yoast-seo.php' );
