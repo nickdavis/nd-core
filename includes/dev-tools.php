@@ -2,17 +2,16 @@
 /**
  * ND Core Plugin
  *
- * @package    NDCore
+ * @package    NickDavis\Core
  * @since      1.0.0
  * @copyright  Copyright (c) 2016, Nick Davis
  * @license    GPL-2.0+
  */
-
 namespace NickDavis\Core;
 
-add_filter( 'get_user_option_admin_color', 'dev_color_scheme', 5 );
+add_filter( 'get_user_option_admin_color', __NAMESPACE__ . '\set_developer_admin_color_scheme', 5 );
 /**
- * Force different color scheme when user is developer on development server
+ * Force different admin color scheme when user is developer on development server
  *
  * @link https://gist.github.com/billerickson/654faf38a4eb98842c7c3524fc092d8f
  *
@@ -22,7 +21,7 @@ add_filter( 'get_user_option_admin_color', 'dev_color_scheme', 5 );
  *
  * @return string
  */
-function dev_color_scheme( $color_scheme ) {
+function set_developer_admin_color_scheme( $color_scheme ) {
 	if ( is_developer() && is_dev_site() ) {
 		$color_scheme = 'coffee';
 	} else {
@@ -46,6 +45,7 @@ function is_developer() {
 	}
 	// Approved developer
 	$approved = array(
+		'iamnickdavis',
 		'nick',
 	);
 	// Get the current user
@@ -59,7 +59,7 @@ function is_developer() {
 /**
  * Check if current site is a development site
  *
- * @since 1.2.0
+ * @since 1.0.0
  * @return boolean
  */
 function is_dev_site() {
