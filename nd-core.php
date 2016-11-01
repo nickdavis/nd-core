@@ -19,11 +19,11 @@
 namespace NickDavis\Core;
 
 // Plugin Directory
-define( 'ND_DIR', dirname( __FILE__ ) );
+define( 'ND_CORE_DIR', dirname( __FILE__ ) );
 
-require_once( ND_DIR . '/includes/general.php' );
-require_once( ND_DIR . '/includes/dev-tools.php' );
-require_once( ND_DIR . '/includes/genesis.php' );
-require_once( ND_DIR . '/includes/gravity-forms.php' );
-require_once( ND_DIR . '/includes/jetpack.php' );
-require_once( ND_DIR . '/includes/yoast-seo.php' );
+require_once( ND_CORE_DIR . '/includes/general.php' );
+require_once( ND_CORE_DIR . '/includes/dev-tools.php' );
+require_once( ND_CORE_DIR . '/includes/genesis.php' );
+require_once( ND_CORE_DIR . '/includes/gravity-forms.php' );
+require_once( ND_CORE_DIR . '/includes/jetpack.php' );
+require_once( ND_CORE_DIR . '/includes/yoast-seo.php' );
