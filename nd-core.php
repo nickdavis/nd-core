@@ -3,9 +3,9 @@
  * Plugin Name: ND Core
  * Plugin URI: https://github.com/nickdavis/nd-core
  * Description: Core functionality plugin designed to work with your site specific core functionality plugin and your WordPress theme
- * Version: 1.0.1
+ * Version: 1.0.2
  * Author: Nick Davis
- * Author URI: https://designtowebsite.com
+ * Author URI: https://iamnickdavis.com
  *
  * This program is free software; you can redistribute it and/or modify it under the terms of the GNU
  * General Public License version 2, as published by the Free Software Foundation.  You may NOT assume

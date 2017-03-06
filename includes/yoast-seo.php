@@ -9,7 +9,13 @@
  */
 namespace NickDavis\Core;
 
-// Don't let Yoast SEO metabox be high priority
+use Yoast_Notification_Center;
+
+/**
+ * Don't let Yoast SEO metabox be high priority on Edit Post screen
+ *
+ * @since 1.0.2
+ */
 add_filter( 'wpseo_metabox_prio', function () {
 	return 'low';
 } );
