@@ -1,5 +1,9 @@
 # ND Core Plugin Changelog
 
+## [1.0.6] - 2017-03-06
+* Re-add ACF licence key after WP Migrate DB Pro database pull
+* Refactor plugin bootstrap file (h/t Tonya Mork)
+
 ## [1.0.5] - 2017-03-06
 * Bump just to see if it causes Git submodule to fire (again again!)
 
