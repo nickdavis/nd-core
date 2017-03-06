@@ -32,3 +32,15 @@ function dont_update_core_func_plugin( $r, $url ) {
 
 	return $r;
 }
+
+add_action( 'init', __NAMESPACE__ . '\add_excerpts_to_pages' );
+/**
+ * Description.
+ *
+ * @since 1.0.2
+ *
+ * @return void
+ */
+function add_excerpts_to_pages() {
+	add_post_type_support( 'page', 'excerpt' );
+}
