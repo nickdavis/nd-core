@@ -95,6 +95,7 @@ function uninstall_plugin() {
  */
 function init_autoloader() {
 	require_once( 'includes/general.php' );
+	require_once( 'includes/advanced-custom-fields/activate-licence.php' );
 	require_once( 'includes/advanced-custom-fields/disable-frontend.php' );
 	require_once( 'includes/dev-tools.php' );
 	require_once( 'includes/genesis.php' );
