@@ -27,3 +27,10 @@ function remove_default_genesis_page_templates( $page_templates ) {
 
 	return $page_templates;
 }
+
+/**
+ * Remove the Edit link that appears on the front end body content / post meta
+ *
+ * @since 1.0.2
+ */
+add_filter( 'genesis_edit_post_link', '__return_false' );

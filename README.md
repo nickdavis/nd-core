@@ -2,7 +2,7 @@
 
 Github project link: https://github.com/nickdavis/nd-core
 
-This plugin is designed to be used as a core functionality plugin for all https://designtowebsite.com clients.
+This plugin is designed to be used as a core functionality plugin for all https://iamnickdavis.com clients.
 
 It’s designed to be used as a general, rather than project specific plugin.
 
@@ -20,4 +20,4 @@ Finally, ND Core is designed to work with the latest version of the ND Starter t
 
 ## Plugin Support
 
-You are free to use this plugin for your own project, but support is only provided to https://designtowebsite.com clients.
+You are free to use this plugin for your own project, but support is only provided to https://iamnickdavis.com clients.
