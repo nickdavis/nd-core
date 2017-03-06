@@ -1,5 +1,8 @@
 # ND Core Plugin Changelog
 
+## [1.0.5] - 2017-03-06
+* Bump just to see if it causes Git submodule to fire (again again!)
+
 ## [1.0.4] - 2017-03-06
 * Bump just to see if it causes Git submodule to fire (again!)
 
