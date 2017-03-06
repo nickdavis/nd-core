@@ -1,5 +1,8 @@
 # ND Core Plugin Changelog
 
+## [1.0.3] - 2017-03-06
+* Bump just to see if it causes Git submodule to fire
+
 ## [1.0.2] - 2017-03-06
 * Don't let Yoast SEO metabox be high priority on Edit Post screen
 * Remove the Genesis front end ‘Edit’ link
